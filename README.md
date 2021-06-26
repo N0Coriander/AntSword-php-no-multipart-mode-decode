@@ -1,4 +1,4 @@
-# AntSword-php-chr_decode
-v1.1<br>
+# AntSword-php(no-multipart-mode)_decode
+v1.0<br>
 ====
-蚁剑连接php后门时，数据流量会通过ascii编码，同时会将执行的命令使用base64加密，针对以上两种现象进行流量还原
+使用蚁剑连接后门时，针对非multipart的POST传参场景，对请求体数据进行解密还原
